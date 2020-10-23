@@ -847,7 +847,7 @@ class Core(object):
         params = params or {}
         url = 'https://%s/%s/%s' % (self.fut_host, self.gameUrl, url)
         if not v2: url = url.replace('v2/','')
-        print(url)
+        #print(url)
 
         self.logger.debug("request: {0} data={1};  params={2}".format(url, data, params))
         # if method.upper() == 'GET':
