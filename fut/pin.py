@@ -43,8 +43,8 @@ class Pin(object):
 
         self.r = requests.Session()
         self.r.headers = headers
-        self.r.headers['Origin'] = 'https://www.easports.com'
-        self.r.headers['Referer'] = 'https://www.easports.com/fifa/ultimate-team/web-app/'
+        self.r.headers['Origin'] = 'https://www.ea.com'
+        self.r.headers['Referer'] = 'https://www.ea.com/fifa/ultimate-team/web-app/'
         self.r.headers['x-ea-game-id'] = self.sku
         self.r.headers['x-ea-game-id-type'] = self.tidt
         self.r.headers['x-ea-taxv'] = self.taxv
